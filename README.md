@@ -9,7 +9,7 @@ Ce dépôt contient les fichiers du projet sur les arbres B réalisé pendant lo
   
 # UML
 
-![alt text](img/uml.png)
+![alt text](img/UML.png)
 
 # Rapport
 
