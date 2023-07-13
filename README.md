@@ -1,23 +1,15 @@
-# ProjetArbreB
+# Arbre B
 
-Ce dépôt contiendra les fichiers du projet sur les arbres B
+Ce dépôt contient les fichiers du projet sur les arbres B réalisé pendant lors d'un UE à l'Université de Lille.
 
 # Auteurs
 
-- Havart Florentin Groupe 2
-- Bugnon Florentin Groupe 7
-
-# Lien Git
-
-https://gitlab-etu.fil.univ-lille1.fr/bugnon/projetarbreb/-/tree/main
-
-
-
+- Havart Florentin
+- Bugnon Florentin
+  
 # UML
 
-
 ![alt text](img/uml.png)
-
 
 # Rapport
 
