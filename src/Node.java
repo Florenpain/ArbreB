@@ -192,7 +192,6 @@ public class Node {
         return null;
     }
 
-
     public Node nodeLeft(Node son) {
 			int i;
 			//sur countSons-1 au moins on fait pas le dernier comme il n a pas de +1 au dernier

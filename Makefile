@@ -1,5 +1,5 @@
 cls:
-	echo "Compiling..."
+	@echo "Compiling..."
 	javac ./src/*.java -d ./class
 
 runFirst:
@@ -12,12 +12,12 @@ runThird:
 	cd class && java mainThird
 
 doc:
-	echo "Generating javadoc..."
+	@echo "Generating javadoc..."
 	mkdir doc
 	javadoc ./src/*.java -d ./doc
 
 clean:
-	echo "Cleaning..."
+	@echo "Cleaning..."
 	rmdir /S /Q doc
 	rmdir /S /Q class
-	echo "Done."
+	@echo "Done."
