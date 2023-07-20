@@ -12,9 +12,6 @@ public class Node {
 	int u;  //the maximum number of value that can be inside a node
 	int l;  //the minimum number of value that can be inside a node
 
-
-
-
 	public Node( int key , int l , int u) {
 		this.parent=null;
 		this.keys= new int[u-1];//taille:u-1
@@ -94,7 +91,7 @@ public class Node {
 		}
 		this.sons[index] = son ;
 		//this.sons[index+1] = inter ;
-	}
+		}
 	}
 
 	public int[] getKeys(){

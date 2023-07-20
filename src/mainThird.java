@@ -6,7 +6,6 @@ public class mainThird {
 		Node root = new Node(2,2,3);
 		Btree tree = new Btree(root,2,3);
 
-
 		int [] values = {4, 5, 6, 8, 10,14, 16, 18};
 		tree.insert( values);
 		tree.delete(18, tree.getRoot());

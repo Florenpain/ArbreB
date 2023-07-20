@@ -105,8 +105,8 @@ public class Btree {
 	}
 
 
-	//si c ets pas une feuille on va dans les enfants sinon on rajoute dans le node
-	//l enfant correspondant (niveau valeur , key > val < key+1
+	//si ce n'est pas une feuille on va dans les enfants sinon on rajoute dans le node
+	//l enfant correspondant (niveau valeur , key > val < key+1)
 	// si c est une feuille on rajoute , si elle full :
 	//	on divise en deux et on remonte la valeur medianne
 	//on ajoute la valeur medianne au parent
