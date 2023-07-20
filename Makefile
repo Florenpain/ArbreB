@@ -1,18 +1,23 @@
 cls:
-	javac ./ArbreB/src/*.java -d ./classes
+	echo "Compiling..."
+	javac ./src/*.java -d ./class
 
 runFirst:
-	cd ./classes ; java mainFirst
+	cd class && java mainFirst
 
 runSecond:
-	cd ./classes ; java mainSecond
+	cd class && java mainSecond
 
 runThird:
-	cd ./classes ; java mainThird
+	cd class && java mainThird
 
 doc:
-	javadoc ./ArbreB/*.java -d ../doc
+	echo "Generating javadoc..."
+	mkdir doc
+	javadoc ./src/*.java -d ./doc
 
 clean:
-	rm -r doc
-	rm -r classes
+	echo "Cleaning..."
+	rmdir /S /Q doc
+	rmdir /S /Q class
+	echo "Done."
